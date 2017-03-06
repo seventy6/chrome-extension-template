@@ -2,6 +2,25 @@
   "name": "chrome-bookmarks-bookcase",
   "private": true,
   "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "minigrid": "^3.1.1",
+    "jQuery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {},
+  "overrides": {
+    "minigrid": {
+      "main": [
+        "dist/minigrid.min.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.min.js"
+      ]
+    }
+  }
 }

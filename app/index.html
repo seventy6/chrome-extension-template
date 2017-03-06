@@ -1,24 +1,39 @@
 <!doctype html>
 <html>
   <head>
+      <meta name="viewport" content="width=device-width">
+
     <!-- build:css styles/options-vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
     <!-- endbower -->
     <!-- endbuild -->
-    <!-- build:css styles/main.css -->
+    <!-- build:css styles/main.css -->    
     <link href="styles/main.css" rel="stylesheet">
     <!-- endbuild -->
   </head>
   <body>
-    <h1>'Allo, 'Allo!</h1>
-    <h1>erer we go! sadasd</h1>
+        <div class="cards" id="bookmarks">
+            <h1  class=""><span class="glyphicon glyphicon-bookmark text-warning" aria-hidden="true"></span>&nbsp;
+            Inbox
+            </h1>            
+            <div class="">
+                <a href="#" id="test" class="btn btn-success">Manage</a>
+            </div>
+        </div>
+    </div>
     <!-- build:js scripts/options-vendor.js -->
     <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/handlebars/handlebars.js"></script>
+    <script src="bower_components/minigrid/dist/minigrid.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:js scripts/options.js -->
-<!--     <script src="scripts/options.js"></script>
- -->    <!-- endbuild -->
+    <script src="scripts/contentscript.js"></script>
+    <!-- endbuild -->
   </body>
 </html>
