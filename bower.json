@@ -7,9 +7,17 @@
     "minigrid": "^3.1.1",
     "jQuery": "^3.1.1",
     "bootstrap": "^3.3.7",
-    "moment": "^2.17.1"
+    "moment": "^2.17.1",
+    "sugar": "^2.0.4",
+    "jquery": "^3.1.1",
+    "velocity": "^1.4.3"
   },
   "devDependencies": {},
+  "jquery": {
+    "main": [
+      "dist/jquery.min.js"
+    ]
+  },
   "overrides": {
     "minigrid": {
       "main": [
